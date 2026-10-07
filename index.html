@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title >QuickNotes</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"defer></script>
+
+    </head>
+    <body>
+        <header>
+            <h1>QuickNote</h1>
+
+        </header>
+    </body>
+
+    <section>
+        <h2>Add a Note</h2>
+
+ <form id="note-form">
+
+    <label for ="note-input">Note:</label>
+    <input type="text" id="note-input">
+
+    <label for="note-category">Category:</label>
+    <select id="note-category">
+        <option value="personal">personal</option>
+        <option value="work">work</option>
+        <option value="study">study</option>
+    </select>
+
+    <button type="submit">Add Note  </button>
+ </form>
+    </section>
+
+   <section>
+ <h2>Your Notes</h2>
+
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Search notes..."
+  >
+
+  <p id="note-count">0 notes</p>
+
+  <p id="error-message"></p>
+
+  <ul id="notes-list"></ul>
+   </section>
+
+</html>
