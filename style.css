@@ -24,7 +24,7 @@ button{
     padding: 15px;
     border:2px solid #add;
     border-radius: 9px;
-    margin: bottom 10px;
+    margin-bottom:  10px;
     background-color: whitesmoke;
 }
 
@@ -45,8 +45,8 @@ button:hover{
     border-left: 5px solid gold;
 }
 
-@media(max-width)600{
-    form{
+@media(max-width: 600px){
+    form {
         flex-direction:column;
 }
 main{
