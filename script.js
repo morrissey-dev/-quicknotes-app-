@@ -143,6 +143,13 @@ searchInput.addEventListener("input", function() {
 
     notesList.appendChild(li);
   });
+
+  // Update the note count for search results
+  if (filteredNotes.length === 1) {
+    noteCount.textContent = "1 note";
+  } else {
+    noteCount.textContent = filteredNotes.length + " notes";
+  }
 });
 
 // Load saved notes when the page opens
