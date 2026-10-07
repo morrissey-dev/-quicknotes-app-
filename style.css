@@ -1,0 +1,55 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select,
+button{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#notes-list{
+    list-style:none;
+    padding:0;
+}
+
+.note{
+    padding: 15px;
+    border:2px solid #add;
+    border-radius: 9px;
+    margin: bottom 10px;
+    background-color: whitesmoke;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.note.personal{
+    border-left: 5px solid greenyellow;
+}
+
+.note.work{
+    border-left: 5px solid darkblue;
+
+}
+
+.note.study{
+    border-left: 5px solid gold;
+}
+
+@media(max-width)600{
+    form{
+        flex-direction:column;
+}
+main{
+    padding: 0 10px;
+}
+}
