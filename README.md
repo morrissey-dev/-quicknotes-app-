@@ -30,9 +30,9 @@ QuickNotes is a simple browser-based notes application that allows users to crea
 * How to use localStorage and JSON to save data in the browser.
 * How to build a responsive layout using CSS.
 
-##Challenges I Encountered
+## Challenges I Encountered
 
-Debugging JavaScript syntax and scope errors.
-Understanding how localStorage and JSON work together to save notes.
-Making the search and delete features work together.
-Updating the note count correctly when searching for notes.
+* Debugging JavaScript syntax and scope errors.
+* Understanding how localStorage and JSON work together to save notes.
+* Making the search and delete features work together.
+* Updating the note count correctly when searching for notes.
